@@ -1,0 +1,9 @@
+version: 1.0
+runtime: Nodejs 14 
+build:
+  commands:
+    build:
+      - npm install express
+      - npm install mysql
+run: 
+  command: npm start
