@@ -3,8 +3,7 @@ runtime: nodejs14
 build:
   commands:
     build:
-      - npm install express
-      - npm install mysql
+      - npm install
 run: 
   command: npm start
   network: 
