@@ -7,3 +7,5 @@ build:
       - npm install mysql
 run: 
   command: npm start
+  network: 
+    port: 8080
